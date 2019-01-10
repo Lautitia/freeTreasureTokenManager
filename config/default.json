@@ -1,0 +1,46 @@
+{
+    "name": "WXAPI",
+    "env": "DEBUG",
+    "port": 58101,
+
+    "wxApplet": {
+        "appId": "wxdea82a391da8d346",
+        "appSecret": "010fb1b0b7b747d7e902fbdefb11d3c3"
+    },
+
+    "youzanOpen": {
+        "clientId": "5b107d30657a0ac882",
+        "clientSecret": "658592753482e2e51d8ef76e02c8c440",
+        "kdtId": 42302949
+    },
+
+    "MySQL":{
+        "freeTreasure":{
+            "read":[
+                {
+                    "host": "127.0.0.1",
+                    "port": 3306,
+                    "username": "root",
+                    "password": "123456",
+                    "database": "freeTreasure"
+                }
+            ],
+            "write":{
+                "host": "127.0.0.1",
+                "port": 3306,
+                "username": "root",
+                "password": "123456",
+                "database": "freeTreasure"
+            }
+        }
+    },
+
+    "logfile": false,
+
+    "enableAuth": false,
+    "defaultPageSize": 10,      //默认分页内容长度
+    "defaultAuthCodeTimeout": 10,      //默认验证码冷却时间
+    "defaultAuthCodeExpired": 300,      //默认验证码失效时间
+
+    "api": "http://127.0.0.1:58021"
+}
